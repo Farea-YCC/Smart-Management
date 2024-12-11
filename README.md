@@ -16,4 +16,12 @@ simple
 locally database sqflite
 ---
 
+
+#  How To Upload Project into github Command
 A new Flutter project.
+git init
+git add .
+git commit -m "Update Some errors"
+git branch -M main
+git remote add origin https://github.com/Farea-YCC/Smart-Management.git
+git push -u origin main
