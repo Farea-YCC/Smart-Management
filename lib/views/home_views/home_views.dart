@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
-import '../clients_views/clients_views.dart';
-import '../expenses_views/expenses_views.dart';
-import '../productes_views/productes_view.dart';
-import '../purchases_views/purchases_view.dart';
-import '../sales_views/sales_view.dart';
-import '../suppliers_views/suppliers_view.dart';
+import 'package:smart_management/common/widget/custom_appbar.dart';
+import 'package:smart_management/views/clients_views/clients_views.dart';
+import 'package:smart_management/views/expenses_views/expenses_views.dart';
+import 'package:smart_management/views/productes_views/productes_view.dart';
+import 'package:smart_management/views/purchases_views/purchases_view.dart';
+import 'package:smart_management/views/sales_views/sales_view.dart';
+import 'package:smart_management/views/suppliers_views/suppliers_view.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
   @override
@@ -25,7 +26,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             _buildGridItem(
               context,
-              imagePath: 'images/6.png',
+              imagePath: 'assets/images/6.png',
               label: 'العملاء',
               onTap: () {
                 Navigator.push(
@@ -38,7 +39,7 @@ class _HomePageState extends State<HomePage> {
             ),
             _buildGridItem(
               context,
-              imagePath: 'images/2.png',
+              imagePath: 'assets/images/2.png',
               label: 'المشتريات',
               onTap: () {
                 Navigator.push(
@@ -51,7 +52,7 @@ class _HomePageState extends State<HomePage> {
             ),
             _buildGridItem(
               context,
-              imagePath: 'images/1.png',
+              imagePath: 'assets/images/1.png',
               label: 'المخزون',
               onTap: () {
                 Navigator.push(
@@ -65,7 +66,7 @@ class _HomePageState extends State<HomePage> {
 
             _buildGridItem(
               context,
-              imagePath: 'images/5.png',
+              imagePath: 'assets/images/5.png',
               label: 'المورديــن',
               onTap: () {
                 Navigator.push(
@@ -78,7 +79,7 @@ class _HomePageState extends State<HomePage> {
             ),
             _buildGridItem(
               context,
-              imagePath: 'images/4.png',
+              imagePath: 'assets/images/4.png',
               label: 'المبيعات',
               onTap: () {
                 Navigator.push(
@@ -91,7 +92,7 @@ class _HomePageState extends State<HomePage> {
             ),
             _buildGridItem(
               context,
-              imagePath: 'images/3.png',
+              imagePath: 'assets/images/3.png',
               label: 'المصروفات',
               onTap: () {
                 Navigator.push(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart'; //
-import 'package:smart_management/widget/custom_appbar.dart';
-import '../../models/ExpensesModel.dart';
-import '../../repository/expenses_repository.dart';
+import 'package:smart_management/common/widget/custom_appbar.dart';
+import 'package:smart_management/models/ExpensesModel.dart';
+import 'package:smart_management/repository/expenses_repository.dart';
 import 'delete_expenses.dart';
 import 'expenses_detailes_view.dart';
 import 'expenses_form_views.dart';

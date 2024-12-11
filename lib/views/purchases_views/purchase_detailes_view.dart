@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
-import '../../models/PurchaseModel.dart';
-import '../../repository/purchases_repository.dart';
-
-
+import 'package:smart_management/common/widget/custom_appbar.dart';
+import 'package:smart_management/models/PurchaseModel.dart';
+import 'package:smart_management/repository/purchases_repository.dart';
 class PurchasesDetailesView extends StatefulWidget {///
   PurchasesDetailesView({Key? key, required this.Id}) : super(key: key);///
   final int Id;

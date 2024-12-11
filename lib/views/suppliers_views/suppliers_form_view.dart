@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../models/SupplierModel.dart';
-import '../../repository/suppliers_repository.dart';
+import 'package:smart_management/models/SupplierModel.dart';
+import 'package:smart_management/repository/suppliers_repository.dart';
 import 'suppliers_view.dart';
 
 class SuppliersFormView extends StatefulWidget {

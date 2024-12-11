@@ -1,9 +1,8 @@
-
 import 'package:flutter/material.dart';
+import 'package:smart_management/common/settings/about.dart';
+import 'package:smart_management/views/home_views/home_views.dart';
 
-import '../settings/about.dart';
-import '../views/home_views/home_views.dart';
-
+import 'constants.dart';
 class CustomNavigationBar extends StatefulWidget {
   const CustomNavigationBar({super.key});
   @override
@@ -40,7 +39,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.blue,
+        selectedItemColor: kprimaryColor,
         onTap: _onItemTapped,
       ),
     );

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class EvaluationPage extends StatefulWidget {
   const EvaluationPage({Key? key}) : super(key: key);
@@ -14,7 +13,7 @@ class _EvaluationPageState extends State<EvaluationPage> {
   }
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
       ),
     );

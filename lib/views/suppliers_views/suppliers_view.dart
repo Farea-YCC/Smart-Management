@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:smart_management/common/widget/custom_appbar.dart';
 import 'package:smart_management/models/SupplierModel.dart';
 import 'package:smart_management/repository/suppliers_repository.dart';
+import 'package:smart_management/views/suppliers_views/supplier_detailes_view.dart';
+import 'package:smart_management/views/suppliers_views/supplieres_edit_view.dart';
 import 'package:smart_management/views/suppliers_views/suppliers_form_view.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
-import 'delete_supplier.dart';
-import 'supplier_detailes_view.dart';
-import 'supplieres_edit_view.dart';
 
+import 'delete_supplier.dart';
 class SuppliersView extends StatefulWidget {
   const SuppliersView({Key? key}) : super(key: key);
 

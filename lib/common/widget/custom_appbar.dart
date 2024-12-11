@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../theme/mode_theme.dart';
+import 'package:smart_management/common/theme/mode_theme.dart';
 import 'custome_alertdialog.dart';
 AppBar customeAppBar(BuildContext context, String title) {
   final themeProvider = Provider.of<ThemeProvider>(context);

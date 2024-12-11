@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:provider/provider.dart';
-import 'package:smart_management/splash/splash.dart';
-import 'package:smart_management/theme/mode_theme.dart';
+import 'common/splash/splash.dart';
+import 'common/theme/mode_theme.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GetStorage.init();
@@ -25,7 +25,7 @@ class _SmartManagementState extends State<SmartManagement> {
             themeMode: themeProvider.themeMode,
             theme: ThemeData.light(),
             darkTheme: ThemeData.dark(),
-            home: const SplashScreen(),
+            home:  const SplashScreen(),
           );
         },
       ),

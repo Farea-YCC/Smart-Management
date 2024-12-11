@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:smart_management/common/widget/custom_appbar.dart';
 import 'package:smart_management/models/SaleModel.dart';
 import 'package:smart_management/repository/sales_repository.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
 class SalessDetailesView extends StatefulWidget {///
   SalessDetailesView({Key? key, required this.Id}) : super(key: key);///
   final int Id;

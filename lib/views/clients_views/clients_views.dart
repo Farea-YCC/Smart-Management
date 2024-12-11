@@ -1,12 +1,11 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:smart_management/widget/custom_navigation_bar.dart';
-import '../../models/ClientModel.dart';
-import '../../repository/clients_repository.dart';
-import 'client_detailes_view.dart';
-import 'clients_add.dart';
-import 'clients_edit_view.dart';
-
+import 'package:smart_management/common/widget/custom_navigation_bar.dart';
+import 'package:smart_management/models/ClientModel.dart';
+import 'package:smart_management/repository/clients_repository.dart';
+import 'package:smart_management/views/clients_views/client_detailes_view.dart';
+import 'package:smart_management/views/clients_views/clients_add.dart';
+import 'package:smart_management/views/clients_views/clients_edit_view.dart';
 class ClientsView extends StatefulWidget {
   const ClientsView({Key? key}) : super(key: key);
 

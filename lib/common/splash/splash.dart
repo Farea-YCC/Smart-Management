@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:smart_management/common/widget/custom_navigation_bar.dart';
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
   @override
@@ -21,10 +22,8 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
       parent: _controller,
       curve: Curves.easeInOut,
     );
-    Future.delayed(const Duration(seconds: 2), () {
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => const CustomNavigationBar()),
+    Future.delayed(  const Duration(seconds: 2), () {
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>   const CustomNavigationBar()),
       );
     }
 
@@ -68,7 +67,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                   ),
                   child: ClipOval(
                     child: Image.asset(
-                      'images/logo.png',
+                      'assets/images/logo.png',
                       fit: BoxFit.cover,
                     ),
                   ),

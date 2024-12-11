@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart'; //
+import 'package:smart_management/common/widget/custom_appbar.dart';
+import 'package:smart_management/models/SaleModel.dart';
+import 'package:smart_management/repository/sales_repository.dart';
+import 'package:smart_management/views/sales_views/sale_detailes_view.dart';
+import 'package:smart_management/views/sales_views/sales_edit_view.dart';
 import 'package:smart_management/views/sales_views/sales_form_view.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
-import '../../models/SaleModel.dart';
-import '../../repository/sales_repository.dart';
-import 'delete_sales.dart';
-import 'sales_edit_view.dart';
-import 'sale_detailes_view.dart';
 
+import 'delete_sales.dart';
 class SalesView extends StatefulWidget {
   //
   const SalesView({Key? key}) : super(key: key); //

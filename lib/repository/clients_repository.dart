@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
+import 'package:smart_management/models/ClientModel.dart';
 
-import '../db_helper/db_clients_helper.dart'; // import library
-import '../models/ClientModel.dart';
+import '../db_helper/db_clients_helper.dart';
 
 class ClientsRepository{ //class name
   Future<List<ClientModel>> getAllFromDb()async{ // model type

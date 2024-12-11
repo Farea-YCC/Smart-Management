@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:smart_management/common/widget/custom_appbar.dart';
 import 'package:smart_management/models/SupplierModel.dart';
 import 'package:smart_management/repository/suppliers_repository.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
 class SuppliersDetailesViews extends StatefulWidget {
   const SuppliersDetailesViews({Key? key, required this.Id}) : super(key: key);
   final int Id;

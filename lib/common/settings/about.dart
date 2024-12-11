@@ -15,7 +15,7 @@ class _AboutUsPageState extends State<AboutUsPage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('من نحن', ),centerTitle: true,
+          title: const Text('من نحن', ),centerTitle: true,
         ),
         body: Directionality(
           textDirection: TextDirection.rtl,
@@ -24,12 +24,12 @@ class _AboutUsPageState extends State<AboutUsPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 ContactUs(
-                  logo: const AssetImage('images/my_photo_faraa .png'),
+                  logo: const AssetImage('assets/images/my_photo_faraa .png'),
                   email: 'faraa717281413.@gmail.com',
                   companyName: 'فــارع الضلاع',
                   phoneNumber: '+967717281413',
-                  website: 'https://wa.me/+967717281413',
-                  githubUserName: 'FaraaAl-Delaa717281413',
+                  website: 'https://farea-ycc.github.io/',
+                  githubUserName: 'https://github.com/Farea-Al-Dhelaa',
                   linkedinURL: 'https://www.linkedin.com/in/abhishek-doshi-520983199/',
                   twitterHandle: 'Faraa AlDela',
                   companyColor: Colors.black,

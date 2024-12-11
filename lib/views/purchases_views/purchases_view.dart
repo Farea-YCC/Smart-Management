@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart'; //
+import 'package:smart_management/common/widget/custom_appbar.dart';
+import 'package:smart_management/models/PurchaseModel.dart';
+import 'package:smart_management/repository/purchases_repository.dart';
+import 'package:smart_management/views/purchases_views/purchase_detailes_view.dart';
+import 'package:smart_management/views/purchases_views/purchases_edit_view.dart';
 import 'package:smart_management/views/purchases_views/purchases_form_view.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
-import '../../models/PurchaseModel.dart';
-import '../../repository/purchases_repository.dart';
-import 'delete_purchases.dart';
-import 'purchase_detailes_view.dart';
-import 'purchases_edit_view.dart';
 
+import 'delete_purchases.dart';
 class PurchasesView extends StatefulWidget {
   //
   const PurchasesView({Key? key}) : super(key: key); //

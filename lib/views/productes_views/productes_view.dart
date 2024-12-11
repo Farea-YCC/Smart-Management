@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart'; //
+import 'package:smart_management/common/widget/custom_appbar.dart';
+import 'package:smart_management/models/ProducteModel.dart';
+import 'package:smart_management/repository/productes_repository.dart';
+import 'package:smart_management/views/productes_views/product_detailes_view.dart';
+import 'package:smart_management/views/productes_views/productes_edit_view.dart';
 import 'package:smart_management/views/productes_views/productes_form_view.dart';
-import 'package:smart_management/widget/custom_appbar.dart';
-import '../../models/ProducteModel.dart';
-import '../../repository/productes_repository.dart';
-import 'delete_product.dart';
-import 'productes_edit_view.dart';
-import 'product_detailes_view.dart';
 
+import 'delete_product.dart';
 class ProductesView extends StatefulWidget {
   //
   const ProductesView({Key? key}) : super(key: key); //
